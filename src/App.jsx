@@ -4,7 +4,8 @@ import './index.css';
 import './App.css';
 import Home from './components/Home';
 import DataAnalyst from './components/DataAnalyst';
-import Aiml from './components/aiml';
+import AiExplorer from "./components/AiExplorer";
+
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/data-analyst" element={<DataAnalyst />} />
-          <Route path="/aiml" element={< Aiml />} />
+          <Route path="/aiml" element={< AiExplorer />} />
         </Routes>
       </div>
     </Router>
