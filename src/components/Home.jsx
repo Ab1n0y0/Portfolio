@@ -308,11 +308,8 @@ const Portfolio = () => {
               <div className="relative w-80 h-80 lg:w-[24rem] lg:h-[24rem] rounded-2xl backdrop-blur-xl border border-white/20 flex items-center justify-center transition-all duration-700 hover:scale-105 hover:rotate-3 shadow-2xl shadow-purple-500/30">
                 {/* This div now takes up the full space of the profile card */}
                 <div className="absolute inset-0 rounded-2xl overflow-hidden"> {/* Added absolute positioning and overflow hidden */}
-                  <img
-                    src="public/photo me.jpeg" // Path to your photo in the public folder
-                    alt="Abinaya P"
-                    className="w-full h-full object-cover" // Ensures the image covers the full area
-                  />
+                  <img src="/photo-me.jpeg" alt="Abinaya P" className="w-full h-full object-cover" />
+
                 </div>
 
                 {/* Text overlay - you can keep or remove this as needed */}
