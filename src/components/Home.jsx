@@ -255,7 +255,7 @@ const Portfolio = () => {
               </a>
 
               <a
-                href="public/Abinaya P  React.js Developer_Resume (2).pdf"
+                href="Abinaya P  React.js Developer_Resume (2).pdf"
                 download
                 className="group px-6 py-3 border-2 border-cyan-400/50 hover:border-cyan-400 bg-cyan-400/10 hover:bg-cyan-400/20 rounded-xl font-bold text-base transition-all duration-300 hover:scale-110 flex items-center justify-center gap-2 shadow-xl shadow-cyan-500/20"
               >
